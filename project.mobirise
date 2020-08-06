@@ -1,0 +1,300 @@
+{
+  "settings": {
+    "name": "Site-07-17_2238",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#4ea2e3"
+      },
+      "additionalSetColors": [
+        "#d5f7bf",
+        "#ff4300",
+        "#ffa300"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.4",
+    "siteFonts": [
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 30,
+    "versionPublish": "4.12.4",
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "canonical-url": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Wir sind #systemrelevant",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "color": "#0dcd7b",
+              "text-align": "right"
+            },
+            ".mbr-section-title DIV": {
+              "text-align": "right"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg\" selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">\n            Beschleunigen Sie Ihre Site mit AMP\n        </h3>\n        <p class=\"mbr-fonts-style mbr-text align-right mbr-pt-1 mbr-pb-3 mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full-Width Intro mit regulierbarer Höhe und Bild im Hintergrund. Klicken Sie auf den Text, um ihn zu bearbeiten oder zu stylen.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">\n                MEHR INFO\n            </a>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "s6xXWfWyeg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header1-f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n     <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n                    WIR SIND #SYSTEMRELEVANT</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    <i>WIR SIND #SYSTEMRELEVANT</i></h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6UXhGdccy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-l"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    Der Kostenlose Website-Baukasten\n                </h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Als Anfang 2020 die Corona-Krise kam, kam auch ein neues Leben auf uns alle zu.<br><br>Ziemlich schnell haben Politiker eine Lösung für Autoindustrie, Bundesliga und Gastronomie gefunden. Ohne Zweifel sind das wichtige Wirtschaftstreiber, allerdings wurden manche Gesellschaftsgruppen vergessen oder als weniger wichtig betrachtet. Dazu zählten unter anderem Kinder und deren Eltern.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s52gHfJshV",
+          "_anchor": "content2-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor"
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"content10 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Strichfarbe\" name=\"lineColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text mbr-fonts-style mbr-col-sm-12 mbr-col-md-8\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><b>Auszug aus dem Info-Brief des Bayerischen Staatsministerium für Familie, Arbeit und Soziales vom 01.07.2020</b></blockquote><blockquote>\"Der Bayerischen Staatsregierung ist bewusst, dass die Zeit der Betretungsverbote die Eltern vor größte Herausforderungen gestellt hat. Wir danken Ihnen ausdrücklich für Ihren wichtigen Beitrag zum Infektionsschutz. Es ist in unser aller Interesse, das Nötige dafür zu tun, Infektionsgeschehen in der Kindertagesbetreuung und damit verbunden erneute weitreichende Beschränkungen für die Zukunft soweit irgend möglich auszuschließen. Wir bitten um Ihre Mithilfe!\"<br></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6V7mqAjb8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-r"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    Der Kostenlose Website-Baukasten\n                </h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Ich bin mir sicher, die meisten Eltern tragen gerne dazu bei, die Pandemie zu verlangsamen und idealerweise zu stoppen, allerdings können viele Eltern wenig nur mit dem Dank allein anfangen. Die meisten von uns brauchen viel mehr konkrete Antworten und Lösungen seitens der Politik und mehr Dialog.<br><br>Um mehr von Politik und Gesellschaft gehört zu werden, starte ich eine Aktion mit einem sehr geringen Aufwand</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6V7YdYslo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-s"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "ol when (@stylizedCounters)": {
+                "list-style": "none",
+                "counter-reset": "myCounter",
+                "li": {
+                  "position": "relative",
+                  "&:before": {
+                    "box-sizing": "border-box",
+                    "position": "absolute",
+                    "left": "-60px",
+                    "counter-increment": "myCounter",
+                    "content": "counter(myCounter)",
+                    "text-align": "center",
+                    "margin": "0 10px",
+                    "width": "35px",
+                    "height": "35px",
+                    "color": "@counterColor",
+                    "font": "~\"bold 20px / 30px @{display4Font}\"",
+                    "border-radius": "50%",
+                    "border": "2px solid @counterColor",
+                    "opacity": "@counterOpacity"
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section content9\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Stilisierte Nummern\" name=\"stylizedCounters\" checked>\n        \n        <input type=\"color\" title=\"Nummernfarbe\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"range\" title=\"Nummern Transparenz\" inline name=\"counterOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"stylizedCounters\">\n        \n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li class=\"mbr-pb-2\">Tragt montags ein T-Shirt, eine Mund-Nasen-Maske oder ein anderes Accessoire mit einem der folgenden Slogans: <b>\"Kinder sind #systemrelevant\"</b> oder <b>\"Eltern sind #systemrelevant\"</b>.&nbsp;</li>\n                    <li class=\"mbr-pb-2\">Postet Bilder bei Facebook, Instagram, Twitter mit dem HashTag <b>#systemrelevant</b></li>\n                    <li class=\"mbr-pb-2\">Erzählt von der Aktion weiter.</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6V954qfOd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-t"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text><b>WICHTIG: ich starte diese Aktion als Privatperson und handle nicht im Namen einer Partei, einer Initiative oder einer Bewegung!</b></div>\n    </div>\n</section>",
+          "_cid": "s52dEkseQq",
+          "_anchor": "content4-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".iconfont-wrapper": {
+              "background": "@iconsBg",
+              ".amp-iconfont": {
+                "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
+                "font-size": "~\"@{iconsSize}rem\"",
+                "width": "~\"@{iconsSize}rem\""
+              }
+            }
+          },
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"3\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#0dd1ff\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper align-center\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light mbr-pt-1 mbr-pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Wir-sind-systemrelevant auch hier</h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"https://t.me/wir_sind_systemrelevant\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont mobi-mbri-paper-plane mobi-mbri\"></span>\n                </span>\n            </a>\n            <a href=\"https://shop.spreadshirt.de/wir-sind-systemrelevant/\" target=\"_blank\">\n                <span class=\"iconfont-wrapper mbr-p-2\">\n                    <span mbr-icon class=\"amp-iconfont mobi-mbri-website-theme mobi-mbri\"></span>\n                </span>\n            </a>\n            \n            \n                \n                \n                \n            </div>\n        </div>\n    </section>",
+          "_cid": "s529Sv8Yl0",
+          "_anchor": "social-follow-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <a href=\"impressum.html\">IMPRESSUM</a></p>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6UZoebEZa",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {},
+          "_anchor": "footer1-n"
+        }
+      ]
+    },
+    "impressum.html": {
+      "settings": {
+        "title": "Impressum",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light mbr-py-1\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\">\n                    Impressum\n                </h3>\n                <p class=\"mbr-text mbr-fonts-style mbr-py-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><br><b>Angaben gemäß § 5 TMG</b><br>Timur Ametov<br>Amerstorfferstr. 15<br>81549 München<br><br><b>Kontakt</b><br>E-Mail: wirsindsystemrelevant@ametov.net<br><br><b>Haftung für Inhalte</b><br>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.<br><br>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<br><br><b>Haftung für Links</b><br>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.<br><br>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br><b><br></b><br><b>Urheberrecht</b><br>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.<br><br>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.<br><br><b>Quelle:</b><br>e-recht24.de<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6V3aoCKNu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-p"
+        }
+      ]
+    }
+  }
+}
